@@ -1,0 +1,32 @@
+.dropdownList {
+  position:relative;
+  float:right;
+  border:1px solid black;
+  list-style:none;
+  background-color:#474B4F;
+  margin-top:-0.1vh;
+  height:100%;
+  width:16vw;
+}
+.dropdown{
+  width:15vw;
+  height:100%;
+  float:right;
+}
+a{
+  font-size:3vh;
+  color:#86C232;
+}
+.dropdownItem {
+  height:50%;
+}
+button {
+  background-color:#474B4F;
+  color:#6B6E70;
+  width:100%;
+  font-size: 3.5vh;
+}
+body {
+   background-color:#222629;
+   color:#6B6E70;
+}

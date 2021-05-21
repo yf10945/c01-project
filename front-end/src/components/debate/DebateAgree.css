@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 300px) {
+  .agreeContainer {
+    display: none !important;
+  }
+}
+agreeContainer {
+  position: absolute;
+  right: 15px;
+}
+.agree {
+  float: right;
+  padding-right:15px;
+}
+.percentageDisplay {
+  float: right;
+}
+.smlButton {
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  font-weight:bold;
+  color: #61892F;
+}
+.percentageText {
+  color: #61892F;
+  font-size: 35px;
+}

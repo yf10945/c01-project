@@ -1,0 +1,64 @@
+.ProfilePage {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background-color: #222629;
+  display: grid;
+  /* grid-gap: 5px; */
+  grid-template-columns: auto 250px 125px 75px 300px auto;
+  grid-template-rows: 270px 100px 150px;
+  grid-template-areas:
+    '. picture about about radar .'
+    '. status about about radar .'
+    '. acs acs social social .';
+}
+
+.ProfileAbout {
+  border-style: solid;
+  border-color: #61892f;
+  border-width: 2px;
+  grid-area: about;
+}
+.ProfileStatus {
+  border-style: solid;
+  border-color: #61892f;
+  border-width: 2px;
+  grid-area: status;
+}
+
+.ProfileACS {
+  border-style: solid;
+  border-color: #86c232;
+  border-width: 2px;
+  grid-area: acs;
+}
+.ProfilePicture {
+  border-style: solid;
+  border-color: #86c232;
+  border-width: 2px;
+  grid-area: picture;
+}
+
+.ProfileRadar {
+  border-style: solid;
+  border-color: #86c232;
+  border-width: 2px;
+  grid-area: radar;
+}
+.ProfileSocial {
+  border-style: solid;
+  border-color: #86c232;
+  border-width: 2px;
+  grid-area: social;
+}
+
+.ProfileAboutView, .ProfileStatusView {
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+    word-break: break-all;
+    white-space: normal;
+}

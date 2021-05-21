@@ -1,0 +1,22 @@
+.ProfilePictureDisplay {
+  border-radius: 50%;
+  height: 80%;
+  width: 80%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+.ProfilePictureEdit {
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ProfilePictureSubmitBox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,32 @@
+.ProfilePictureDisplay {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+.ProfilePictureEdit {
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+}
+.ProfilePictureSave,
+.ProfilePictureCancel {
+  width: fit-content;
+  display: inline-block;
+}
+
+.ProfilePictureButtonContainer {
+  text-align: center;
+}
+
+.ProfilePictureSubmitBox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,11 @@
+form.SignupForm {
+    width: inherit;
+}
+
+.SignupFormError {
+    color: red;
+}
+
+.SignupTitle {
+    color: #fff;
+}

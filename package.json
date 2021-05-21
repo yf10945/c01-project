@@ -1,0 +1,42 @@
+{
+    "name": "project-yes",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "doc": "doc"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/UTSCCSCC01/project-yes.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/UTSCCSCC01/project-yes/issues"
+    },
+    "homepage": "https://github.com/UTSCCSCC01/project-yes#readme",
+    "dependencies": {
+        "bcrpyt": "^2.0.0",
+        "bcrypt": "^5.0.0",
+        "body-parser": "^1.19.0",
+        "cjs": "0.0.11",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "express-validator": "^5.3.1",
+        "mongodb": "^3.6.3",
+        "node-schedule": "^1.3.2",
+        "nodemailer": "^6.4.15",
+        "passport": "^0.4.1",
+        "passport-cookie": "^1.0.8",
+        "passport-local": "^1.0.0",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "react-router-dom": "^5.2.0"
+    }
+}

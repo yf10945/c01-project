@@ -1,0 +1,8 @@
+div.TriviaPage {
+    height: 80vh;
+    max-width: 864px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
